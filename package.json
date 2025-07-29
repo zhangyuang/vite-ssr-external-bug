@@ -1,0 +1,18 @@
+{
+  "name": "@vitejs/test-ssr",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server",
+    "serve": "NODE_ENV=production node server",
+    "debug": "node --inspect-brk server"
+  },
+  "dependencies": {
+    "vite": "^7.0.0"
+  },
+  "devDependencies": {
+    "vue": "^3.5.18",
+    "express": "^5.1.0"
+  }
+}
